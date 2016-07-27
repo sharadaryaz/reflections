@@ -1,3 +1,11 @@
 -  What happens when you initialize a repository? Why do you need to do it?
 
 Initializing a repository converts the folder into a git repository with .git file containing the metadata regarding the folder.
+
+- How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area consists of files that are ready to be committed. While working area consists of files that we may or may not change but are part of our folder and repository is collection of committed files.
+
+- How can you use the staging area to make sure you have one commit per logical change?
+
+Multiple logical change would be part of a single commit if we use commit after making changes in multiple files. Other option would be to commit after each logical change to a single file. But staging area gives an option to make changes across multiple file and commit sequentially according to the logic involved.
