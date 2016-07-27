@@ -9,3 +9,8 @@ Staging area consists of files that are ready to be committed. While working are
 - How can you use the staging area to make sure you have one commit per logical change?
 
 Multiple logical change would be part of a single commit if we use commit after making changes in multiple files. Other option would be to commit after each logical change to a single file. But staging area gives an option to make changes across multiple file and commit sequentially according to the logic involved.
+
+
+- What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+There could be instances when the user would like to take an alternate route to do some experiment or make a different version of code. In such cases branches could be used to switch between different versions while being assured that one always has a master version to its rescue.
